@@ -13,12 +13,19 @@
     <div class="container">
         <h1>حساب زكاة المال</h1>
         <form id="zakat-form">
+            <label for="gold-price">أدخل سعر  جرام من الذهب:</label>
+            <input type="number" id="gold-price" required>
+
             <label for="amount">أدخل المبلغ:</label>
             <input type="number" id="amount" required>
             <button type="button" onclick="calculateZakat()">احسب الزكاة</button>
         </form>
         <div id="result"></div>
     </div>
+
+    <footer>
+        <h3>Ibrahim Hani Elaw @2024</h3>
+    </footer>
     <script src="scripts.js"></script>
 </body>
 </html>
